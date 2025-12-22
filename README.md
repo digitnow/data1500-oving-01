@@ -1,17 +1,17 @@
 # Øving 1
-- ** Oppgave 1:** Data som Tekst (ca. 1.5 timer)
+- **Oppgave 1:** Data som Tekst (ca. 1.5 timer)
   - Fokus: Representasjon, parsing, grunnleggende fil-I/O.
   - Beregne teoretisk lagringsstørrelse.
 
-- ** Oppgave 2:** Jakten på Data - Ytelse i Små og Store Filer (ca. 2.5 timer)
+- **Oppgave 2:** Jakten på Data - Ytelse i Små og Store Filer (ca. 2.5 timer)
   - Fokus: Lineær skanning, ytelsesfall, bufring.
   - Beregne filstørrelse og teoretisk lesetid fra disk.
 
-- ** Oppgave 3:** Normalisering og "Joins" på Filer (ca. 2.5 timer)
+- **Oppgave 3:** Normalisering og "Joins" på Filer (ca. 2.5 timer)
   - Fokus: Dataredundans, `HashMap` for "joins" i minnet.
   - Analysere lagringsbesparelse og vurdere minnebruk (RAM).
 
-- ** Oppgave 4:** Kraften av Indeksering (ca. 1.5 timer + Bonus)
+- **Oppgave 4:** Kraften av Indeksering (ca. 1.5 timer + Bonus)
   - Fokus: Ytelsesgevinst ved indeksering.
   - Kvantifisere kostnaden (i lagring) av en indeks og koble ytelsesgevinsten til I/O-kostnadsmodellen.
 
