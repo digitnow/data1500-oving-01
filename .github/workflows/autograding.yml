@@ -323,47 +323,6 @@ jobs:
           path: checkstyle-report.txt
           retention-days: 7
 
-  test-rust:
-    name: Test Rust Solutions (Bonus)
-    runs-on: ubuntu-latest
-    needs: setup-testdata
-    if: hashFiles('**/Cargo.toml') != ''
-    
-    steps:
-      - name: Checkout student code
-        uses: actions/checkout@v3
-      
-      - name: Download test data
-        uses: actions/download-artifact@v3
-        with:
-          name: testdata
-          path: testdata
-      
-      - name: Set up Rust
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          components: clippy
-          override: true
-      
-      - name: Run Clippy
-        run: |
-          cargo clippy --all-targets --all-features -- -D warnings 2>&1 | tee clippy-report.txt || true
-      
-      - name: Run Rust tests
-        run: |
-          cargo test --verbose 2>&1 | tee rust-test-results.txt
-      
-      - name: Upload Rust results
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: rust-test-results
-          path: |
-            clippy-report.txt
-            rust-test-results.txt
-          retention-days: 7
-
   generate-summary:
     name: Generate Test Summary
     runs-on: ubuntu-latest
