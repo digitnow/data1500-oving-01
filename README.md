@@ -17,6 +17,8 @@
 
 ### Oppgave 1: Min Første "Database" - Data som Tekst (ca. 1.5 timer)
 
+**Mål:** Forstå hvordan strukturert data kan representeres i en tekstfil (CSV - Comma Separated Values) og hvordan man kan lese og parse denne dataen programmatisk. Antatt at studentene har forkunnskaper i Java programmering.
+
 1.  **Opprett datafilen:** `studenter.csv` i mappen `data`
     ```csv
     101,Mickey,CS
@@ -25,15 +27,24 @@
     104,Minnie,PSY
     ```
 2.  **Lag en `Student`-klasse i Java.** (se instruksjoner i filen `oppgave1/LesStudenter.java`)
-3.  **Skriv et Java-program (`LesStudenter.java`).** (se instruksjoner i filen)
+3.  **Skriv et Java-program (`LesStudenter.java`).** (se instruksjoner i filen `oppgave1/LesStudenter.java`). Java-programmet skal returnere (skrive til System.out) følgende:
+    ```
+    Student{id=101, navn='Mickey', program='CS'}
+    Student{id=102, navn='Daffy', program='EE'}
+    Student{id=103, navn='Donald', program='CS'}
+    Student{id=104, navn='Minnie', program='PSY'}
+    ```
 
 **Refleksjonsspørsmål:**
-*   Hva er fordelene med å lagre data i et slikt format?
+*   Hva er fordelene med å lagre data i et slikt format ("comma separated values"?
+Svar:
 *   Hva skjer hvis et av feltene, for eksempel et navn, inneholder et komma? Hvilke problemer skaper det for din parsing-logikk?
+Svar:
 *   **Beregning av lagringsbehov:**
     *   Forelesningen viser et eksempel der en studentrad er 1024 bytes. La oss lage en forenklet modell for *vår* fil. Anta at hvert tegn (character) er 1 byte (dette er en forenkling, se UTF-8).
     *   Regn ut den omtrentlige størrelsen i bytes for én linje i din `studenter.csv`-fil (f.eks., for `101,Mickey,CS`). Ikke glem å telle med kommaene og et tegn for linjeskift.
     *   Basert på denne beregningen, hva ville den teoretiske filstørrelsen vært for **1 million** studenter? Hvor stor for **1 milliard** studenter? Uttrykk svarene i MB, GB eller TB. Sammenlign med eksempelet i forelesningen.
+    - Svar: 
 
 ---
 
