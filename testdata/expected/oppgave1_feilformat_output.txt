@@ -1,0 +1,2 @@
+Student{id=101, navn='Mickey', program='CS'}
+Student{id=103, navn='Donald', program='CS'}

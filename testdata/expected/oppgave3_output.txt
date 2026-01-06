@@ -1,0 +1,10 @@
+Mickey er påmeldt Intro to Databases
+Mickey er påmeldt Programming 1
+Mickey er påmeldt Calculus
+Daffy er påmeldt Intro to Databases
+Daffy er påmeldt Physics
+Donald er påmeldt Intro to Databases
+Donald er påmeldt Programming 1
+Minnie er påmeldt Calculus
+Goofy er påmeldt Programming 1
+Goofy er påmeldt Physics
