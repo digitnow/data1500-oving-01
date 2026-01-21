@@ -1,4 +1,4 @@
-﻿# Local Testing Script for Øving 1 (PowerShell version for Windows)
+﻿﻿# Local Testing Script for Øving 1 (PowerShell version for Windows)
 
 $ErrorActionPreference = "Continue"
 
