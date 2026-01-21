@@ -1,6 +1,4 @@
-﻿﻿# Local Testing Script for Øving 1 (PowerShell version for Windows)
-
-$ErrorActionPreference = "Continue"
+﻿$ErrorActionPreference = "Continue"
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $TestDataDir = Join-Path $ScriptDir "testdata"
