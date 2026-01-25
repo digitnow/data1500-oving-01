@@ -164,7 +164,7 @@ PHYS1500,Physics
 105,PHYS1500
 ```
       
-2\.  Skriv et Java-program **VisPaameldinger.java** som bruker HashMap for å slå sammen dataene og vise hvilke kurs studentene tar. Må bruke en HashMap objekt for studenter og en for kurs. Så kan man gå sekvensielt gjennom påmeldinger og bruke HashMap objektet for å finne studentnavn og kursnavn og skrive ut  følgende linje for hver påmelding:
+2\.  Fullfør Java-programmet **HashJoin.java** som bruker HashMap for å slå sammen dataene og vise hvilke kurs studentene tar. Må bruke en HashMap objekt for studenter og en for kurs. Så kan man gå sekvensielt gjennom påmeldinger og bruke HashMap objektet for å finne studentnavn og kursnavn og skrive ut  følgende linje for hver påmelding:
 
 *\<studentnavn\>* er påmeldt *\<kursnavn\>*
 
